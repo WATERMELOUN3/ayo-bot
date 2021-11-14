@@ -1,0 +1,29 @@
+{
+  "name": "ayo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "WATERMELOUNE",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "generate-password": "^1.7.0",
+    "minecraft-data": "^2.96.0",
+    "mineflayer": "github:U5B/mineflayer#skinsRestorerFix",
+    "mineflayer-auto-eat": "github:WATERMELOUN3/mineflayer-auto-eat#main",
+    "mineflayer-pathfinder": "github:WATERMELOUN3/mineflayer-pathfinder#master",
+    "mineflayer-statemachine": "^1.6.4",
+    "prismarine-world": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

@@ -3,7 +3,7 @@ import { Bot } from "mineflayer";
 import PasswordGenerator from "generate-password";
 import { AyoBot } from "../bots/specifics/ayoBot";
 
-const LOGINS_FILE = "logins.json";
+const LOGINS_FILE = "data/logins.json";
 const LOGINS_FILE_ENCODING = "utf-8";
 const PASSWORD_GEN_OPTS = {
     length: 16,
